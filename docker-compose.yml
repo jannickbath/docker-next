@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  custom-next:
+    build: https://git.jannickus.com/jbath/docker-next.git
+    volumes:
+      - ./proj:/project-data
+    ports:
+      - 3000
